@@ -16,3 +16,7 @@
 {"ts": "2025-11-09T04:51:11.489810", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "【テスト】予約通知テスト", "status": "success", "detail": "smtp.gmail.com:587"}
 {"ts": "2025-11-09T05:05:09.973315", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
 {"ts": "2025-11-09T05:05:28.584033", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T05:14:05.389839", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T05:15:05.494112", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T05:16:05.495866", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T05:17:05.525804", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}

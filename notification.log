@@ -340,3 +340,21 @@ Body:
 [2025-11-09T05:07:07.883319+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
 [2025-11-09T05:08:07.981638+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
 [2025-11-09T05:09:07.985988+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:10:08.053186+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:11:08.106005+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:12:08.152066+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:13:08.192988+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:14:05.391080+00:00] poll result: {'new_count': 1, 'notified': [('2025-11-13', '16:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/13 16:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:14:08.322973+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:15:05.495234+00:00] poll result: {'new_count': 1, 'notified': [('2025-11-13', '16:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/13 16:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:15:08.380248+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:16:05.499160+00:00] poll result: {'new_count': 1, 'notified': [('2025-11-13', '16:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/13 16:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:16:08.478199+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:17:05.527385+00:00] poll result: {'new_count': 1, 'notified': [('2025-11-13', '16:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/13 16:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:18:03.453162+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:19:03.493512+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:20:03.545682+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:21:03.622227+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:22:03.667504+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:23:03.708935+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:24:03.795905+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
