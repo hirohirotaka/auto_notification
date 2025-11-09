@@ -1,0 +1,22 @@
+[Unit]
+Description=Auto Notification Poller
+After=network.target
+
+[Service]
+Type=simple
+# Run as a dedicated system user for least privilege. Create user 'auto_notification' and adjust WorkingDirectory accordingly.
+User=auto_notification
+WorkingDirectory=/var/lib/auto_notification
+EnvironmentFile=/etc/default/auto_notification
+# ExecStart should point to the virtualenv python that has dependencies installed.
+ExecStart=/var/lib/auto_notification/.venv/bin/python /var/lib/auto_notification/scripts/poller.py
+Restart=always
+RestartSec=10
+# Resource limits (adjust as needed)
+LimitNOFILE=4096
+# Protect the system a bit
+ProtectSystem=full
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

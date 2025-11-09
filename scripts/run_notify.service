@@ -1,0 +1,17 @@
+# systemd service unit template for running the notify script via systemd
+# Copy this to /etc/systemd/system/run_notify.service and adjust User/WorkingDirectory as needed.
+
+[Unit]
+Description=auto_notification cron runner
+After=network.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+WorkingDirectory=/home/ubuntu/auto_notification
+Environment=PATH=/home/ubuntu/auto_notification/.venv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+# If you use a .env file, you can source it in a wrapper script instead.
+ExecStart=/home/ubuntu/auto_notification/.venv/bin/python /home/ubuntu/auto_notification/scripts/run_notify.py
+
+[Install]
+WantedBy=multi-user.target

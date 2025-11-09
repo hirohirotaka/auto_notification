@@ -1,0 +1,14 @@
+[Unit]
+Description=Auto Notification Poller (user)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/auto_notification
+EnvironmentFile=%h/.config/auto_notification/env
+ExecStart=%h/auto_notification/.venv/bin/python %h/auto_notification/scripts/poller.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

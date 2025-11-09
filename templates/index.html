@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>高千穂峡 予約状況表示（プロトタイプ）</title>
+    <style>
+      body { font-family: system-ui, sans-serif; padding: 20px; }
+      pre { white-space: pre-wrap; background:#f6f6f6; padding:10px; }
+      #controls { margin-bottom: 12px; }
+    </style>
+  </head>
+  <body>
+    <h1>高千穂峡 予約状況（プロトタイプ）</h1>
+    <div id="controls">
+      <button id="btnFetch">取得 (raw HTML)</button>
+      <label for="startDate">週開始日:</label>
+      <input type="date" id="startDate" />
+      <button id="btnFetchParsed">取得 (parsed JSON)</button>
+      <button id="btnNotifyNow">通知をチェック（今すぐ）</button>
+      <span id="source"></span>
+    </div>
+    <div>
+      <h3>取得結果（HTMLの先頭）</h3>
+      <pre id="result">未取得</pre>
+    </div>
+
+    <div style="margin-top:18px;">
+      <h3>通知先メールアドレスの管理</h3>
+      <div>
+        <input type="email" id="newRecipient" placeholder="email@example.com" />
+        <button id="btnAddRecipient">追加</button>
+      </div>
+      <div id="recipientsArea" style="margin-top:8px">読み込み中...</div>
+    </div>
+
+    <div>
+      <h3>解析済みデータ (shapeA)</h3>
+      <div id="parsedInfo">未取得</div>
+      <table id="parsedTable" border="1" cellpadding="6" style="border-collapse:collapse;margin-top:8px;display:none">
+        <thead><tr><th>date</th><th>time</th><th>status</th><th>service_cd</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:18px;">
+      <h3>送信履歴</h3>
+      <div>
+        <button id="btnLoadHistory">履歴を読み込む</button>
+      </div>
+      <div id="historyArea" style="margin-top:8px">未読み込み</div>
+    </div>
+
+    <script>
+      const btn = document.getElementById('btnFetch');
+      const res = document.getElementById('result');
+      const src = document.getElementById('source');
+      btn.onclick = async ()=>{
+        res.textContent = '取得中...';
+        try{
+          const r = await fetch('/api/fetch_week');
+          const j = await r.json();
+          if(j.ok){
+            src.textContent = 'source=' + j.source;
+            res.textContent = j.html.slice(0, 20000);
+          }else{
+            src.textContent = 'error';
+            res.textContent = JSON.stringify(j, null, 2);
+          }
+        }catch(e){
+          res.textContent = String(e);
+        }
+      }
+
+      document.getElementById('btnFetchParsed').onclick = async ()=>{
+        const info = document.getElementById('parsedInfo');
+        const table = document.getElementById('parsedTable');
+        const tbody = table.querySelector('tbody');
+        info.textContent = '取得中...';
+        table.style.display = 'none';
+        tbody.innerHTML = '';
+        try{
+          const sd = document.getElementById('startDate').value;
+          const qs = sd ? ('?start=' + encodeURIComponent(sd)) : '';
+          const r = await fetch('/api/fetch_parsed' + qs);
+          const j = await r.json();
+          if(j.ok){
+            info.textContent = 'items=' + (j.data? j.data.length : 0);
+            table.style.display = '';
+            for(const it of (j.data||[])){
+              const tr = document.createElement('tr');
+              tr.innerHTML = `<td>${it.date||''}</td><td>${it.time||''}</td><td>${it.status||''}</td><td>${(it.attrs&&it.attrs.service_cd)||''}</td>`;
+              tbody.appendChild(tr);
+            }
+          }else{
+            info.textContent = 'error';
+            tbody.innerHTML = '<tr><td colspan="4">'+JSON.stringify(j)+'</td></tr>';
+            table.style.display = '';
+          }
+        }catch(e){
+          info.textContent = String(e);
+        }
+      }
+
+      document.getElementById('btnNotifyNow').onclick = async ()=>{
+        const info = document.getElementById('parsedInfo');
+        info.textContent = '通知チェック中...';
+        const sd = document.getElementById('startDate').value;
+        const qs = sd ? ('?start=' + encodeURIComponent(sd)) : '';
+        try{
+          const r = await fetch('/api/notify_now' + qs);
+          const j = await r.json();
+          if(j.ok){
+            const res = j.result || {};
+            info.textContent = `new_count=${res.new_count} recipients=${(res.recipients||[]).length}`;
+          }else{
+            info.textContent = 'error: ' + JSON.stringify(j);
+          }
+        }catch(e){ info.textContent = String(e); }
+      }
+
+      // Recipients UI
+      async function loadRecipients(){
+        const area = document.getElementById('recipientsArea');
+        area.textContent = '読み込み中...';
+        try{
+          const r = await fetch('/api/recipients');
+          const j = await r.json();
+          if(j.ok){
+            const list = j.recipients || [];
+            if(list.length===0){ area.innerHTML = '<i>未登録</i>'; return; }
+            const ul = document.createElement('ul');
+            for(const e of list){
+              const li = document.createElement('li');
+              li.textContent = e + ' ';
+              const btn = document.createElement('button'); btn.textContent='削除';
+              btn.onclick = async ()=>{
+                if(!confirm('削除しますか: '+e)) return;
+                const rr = await fetch('/api/recipients?email='+encodeURIComponent(e), { method:'DELETE' });
+                const jj = await rr.json();
+                if(jj.ok){ loadRecipients(); } else { alert(JSON.stringify(jj)); }
+              };
+              li.appendChild(btn);
+              ul.appendChild(li);
+            }
+            area.innerHTML = '';
+            area.appendChild(ul);
+          } else {
+            area.textContent = 'エラー: ' + JSON.stringify(j);
+          }
+        }catch(e){ area.textContent = String(e); }
+      }
+
+      document.getElementById('btnAddRecipient').onclick = async ()=>{
+        const v = document.getElementById('newRecipient').value.trim();
+        if(!v) return alert('メールアドレスを入力してください');
+        try{
+          const r = await fetch('/api/recipients', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({email:v}) });
+          const j = await r.json();
+          if(j.ok){ document.getElementById('newRecipient').value=''; loadRecipients(); }
+          else alert(JSON.stringify(j));
+        }catch(e){ alert(String(e)); }
+      }
+
+      // load on page ready
+      loadRecipients();
+      document.getElementById('btnLoadHistory').onclick = async ()=>{
+        const area = document.getElementById('historyArea');
+        area.textContent = '読み込み中...';
+        try{
+          const r = await fetch('/api/history');
+          const j = await r.json();
+          if(j.ok){
+            const arr = j.history || [];
+            if(arr.length===0){ area.innerHTML = '<i>履歴なし</i>'; return; }
+            const tbl = document.createElement('table');
+            tbl.border = 1; tbl.cellPadding = 6; tbl.style.borderCollapse='collapse';
+            const thead = document.createElement('thead');
+            thead.innerHTML = '<tr><th>ts</th><th>method</th><th>recipients/tokens</th><th>subject/message</th><th>status</th><th>detail</th></tr>';
+            tbl.appendChild(thead);
+            const tb = document.createElement('tbody');
+            for(const e of arr){
+              const tr = document.createElement('tr');
+              const recv = (e.recipients||e.tokens||[]).slice? (e.recipients||e.tokens).join(',') : '';
+              const subj = e.subject || e.message || '';
+              tr.innerHTML = `<td>${e.ts||''}</td><td>${e.method||''}</td><td>${recv}</td><td>${subj}</td><td>${e.status||''}</td><td>${e.detail||''}</td>`;
+              tb.appendChild(tr);
+            }
+            tbl.appendChild(tb);
+            area.innerHTML = '';
+            area.appendChild(tbl);
+          } else {
+            area.textContent = 'エラー: ' + JSON.stringify(j);
+          }
+        }catch(err){ area.textContent = String(err); }
+      }
+    </script>
+  </body>
+ </html>

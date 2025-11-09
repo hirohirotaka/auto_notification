@@ -1,0 +1,342 @@
+SMTP send failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-341d0adcb47sm5292510a91.1 - gsmtp')
+Subject: 【テスト】予約通知テスト
+To: ['takashi010121@icloud.com']
+SMTP send failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-29651c8f07csm104034865ad.78 - gsmtp')
+Subject: 【テスト】予約通知テスト
+To: ['takashi010121@icloud.com']
+SMTP send failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-2964f2a9716sm104398165ad.0 - gsmtp')
+Subject: 【テスト】予約通知テスト
+To: ['takashi010121@icloud.com']
+DRY-RUN LINE send: message=テスト: LINE 通知テスト（自動）
+---
+SMTP send failed: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-296509682b4sm100843415ad.12 - gsmtp')
+Subject: 【テスト】予約通知テスト（再）
+To: ['takashi010121@icloud.com']
+SMTP send failed: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 41be03b00d2f7-ba902ba5d10sm8709340a12.35 - gsmtp')
+Subject: 【テスト】予約通知テスト（アプリパスワード確認）
+To: ['takashi010121@icloud.com']
+[2025-11-09T03:29:37.550206] poll result: {'new_count': 1, 'notified': [('2025-11-13', '14:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/13 14:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:29:45.467346] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:29:55.508487] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:30:05.506278] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:30:15.493089] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:30:25.490733] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:30:35.501173] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:30:45.491686] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:30:55.492988] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:31:05.538042] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:31:15.510628] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:31:25.520342] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:31:35.521305] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:31:45.558048] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:31:55.541358] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:32:05.602879] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:32:15.553702] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:32:25.561221] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:32:35.593849] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:32:45.661147] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:32:55.705677] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:33:05.604783] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:33:15.596703] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:33:25.636465] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:33:35.611047] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:33:45.621202] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:33:55.667477] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:34:05.690960] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:34:15.690769] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:34:25.728638] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:34:35.721332] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:34:45.690131] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:34:55.715245] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:35:05.703125] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:35:15.693398] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:35:25.708065] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:35:35.708175] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:35:45.732149] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:35:55.744686] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:36:05.743459] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:36:15.751863] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:36:25.758676] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:36:35.813514] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:36:45.775353] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:36:55.781742] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:37:05.891390] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:37:15.801361] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:37:25.810697] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:37:35.804211] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:37:45.842214] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:37:55.816854] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:38:05.832921] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:38:15.857907] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:38:25.926387] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:38:35.890980] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:38:45.876758] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:38:55.884816] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:39:05.958904] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:39:15.893832] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:39:25.883021] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:39:35.899758] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:39:45.945698] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:39:55.904639] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:40:05.950589] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:40:18.025332] poll result: {'new_count': 1, 'notified': [('2025-11-14', '15:30', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/14 15:30:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:40:25.974618] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:40:35.954341] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:40:45.946043] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:40:55.963923] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:41:05.958359] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:41:16.027276] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:41:25.994368] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:41:35.984111] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:41:45.985995] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:41:56.003650] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:42:06.025543] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:42:16.018576] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:42:26.023930] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:42:36.103570] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:42:46.042573] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:42:56.063381] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:43:06.079104] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:43:16.072729] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:43:26.107743] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:43:36.101374] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:54:17.178132] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:55:13.300033] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:55:17.251690] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:56:13.412057] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:56:17.315995] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:57:13.494355] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:57:17.325306] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:58:13.507913] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:58:17.497964] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-16 16:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T03:59:13.618951] poll result: {'new_count': 1, 'notified': [('2025-11-16', '16:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/16 16:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T03:59:17.600574] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-15 13:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:00:13.653593] poll result: {'new_count': 1, 'notified': [('2025-11-15', '13:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/15 13:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:00:17.520840] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:01:13.696661] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:01:17.573271] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:02:13.789756] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:02:17.771463] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:03:13.844023] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:03:17.808467] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-14 12:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:04:13.883789] poll result: {'new_count': 1, 'notified': [('2025-11-14', '12:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/14 12:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:04:17.816237] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:05:13.975469] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:05:17.845960] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:06:14.003693] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:06:17.937760] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:06:48.618169] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:07:14.096139] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:07:18.032161] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-13 16:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:07:48.673752] poll result: {'new_count': 1, 'notified': [('2025-11-13', '16:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/13 16:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:08:14.153828] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:08:18.092367] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:08:48.728738] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:09:14.263393] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:09:18.242969] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:09:48.777728] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:10:14.309832] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:10:18.305978] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:10:48.835242] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:11:14.327544] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:11:18.297611] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:11:48.906678] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:12:14.381102] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:12:18.368710] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:12:48.978383] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:13:14.489723] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:13:18.352049] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:13:49.032273] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:14:14.509693] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:14:18.522845] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-14 09:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:15:05.021243] poll result: {'new_count': 1, 'notified': [('2025-11-14', '09:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/14 09:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:15:14.607048] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:15:18.583714] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:16:04.909588] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:16:14.668515] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:16:18.604224] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-14 09:30  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:17:04.944701] poll result: {'new_count': 1, 'notified': [('2025-11-14', '09:30', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/14 09:30:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:17:14.711996] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:17:18.680349] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:18:04.997721] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:18:14.894994] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:18:18.781565] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:19:05.072845] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:19:14.928166] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:19:18.814027] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (2件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-16 11:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+2025-11-16 13:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:20:05.123291] poll result: {'new_count': 2, 'notified': [('2025-11-16', '11:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/16 11:00:00'), ('2025-11-16', '13:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/16 13:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:20:14.927814] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:20:18.910657] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-16 09:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:21:05.186507] poll result: {'new_count': 1, 'notified': [('2025-11-16', '09:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/16 09:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:21:15.000137] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:21:18.880283] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:22:05.251533] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:22:15.153702] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:22:18.948958] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:23:05.348865] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:23:15.112315] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:23:19.012736] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:24:05.422163] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 予約枠の空き候補が見つかりました (1件)
+To: ['takashi010121@icloud.com']
+Body:
+2025-11-17 10:00  status=other service_cd=6711ff2b-8134-4d42-b0e4-d0a1c0a8018d
+  text=残1艇
+
+---
+[2025-11-09T04:24:15.190684] poll result: {'new_count': 1, 'notified': [('2025-11-17', '10:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/17 10:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:24:19.061760] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:25:15.240750] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:25:19.142732] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:26:15.350655] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:26:19.175566] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 【テスト】予約通知テスト
+To: ['あなたの受信先メールアドレス@example.com']
+Body:
+本文テスト
+---
+[2025-11-09T04:27:15.369037] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:27:19.315827] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:28:15.433911] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:28:19.381284] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:29:15.482541] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:29:19.748094] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:30:15.566170] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:30:19.549387] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: 【テスト】予約通知テスト
+To: ['takashi010121@icloud.com']
+Body:
+本文テスト from auto_notification
+---
+[2025-11-09T04:31:15.682334] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:31:19.548530] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:32:15.677908] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:32:19.662442] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:33:15.780720] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:33:19.743719] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:34:15.808312] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:34:19.671665] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:35:15.869065] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:35:19.785612] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:36:15.967658] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:36:20.050016] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:37:16.014478] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:37:19.874995] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:38:01.191221] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:38:16.167022] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:38:19.950993] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:39:01.352218] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:39:16.138910] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:39:20.578937] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:40:01.331091] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:40:16.357791] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:40:20.141544] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:40:21.236610+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:41:10.665990+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:41:16.317695] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:41:20.295553] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:42:10.843473+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:42:16.372716] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:42:20.323673] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:43:10.817343+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:43:16.401579] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:43:20.308489] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:44:10.879738+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:44:16.592297] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:44:20.409516] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+DRY-RUN send: Subject: テスト件名
+To: ['takashi010121@icloud.com']
+Body:
+本文テスト
+---
+[2025-11-09T04:45:10.952294+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:45:16.539804] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:45:20.401511] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:46:11.062678+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:46:16.643623] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:46:20.569190] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:47:11.116962+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:47:16.673434] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:47:20.566046] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:48:10.839566+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:49:10.947553+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:50:11.060505+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:50:32.524767+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:51:06.825273+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:52:06.982542+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:53:07.003818+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:54:07.086492+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:55:07.139901+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:56:07.215451+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:57:07.252439+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:58:07.316647+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T04:59:07.372369+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:00:07.469745+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:01:07.496111+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:02:07.576263+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:03:07.626590+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:04:07.634804+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:05:09.974874+00:00] poll result: {'new_count': 1, 'notified': [('2025-11-13', '16:00', '6711ff2b-8134-4d42-b0e4-d0a1c0a8018d', '2025/11/13 16:00:00')], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:06:07.798179+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:07:07.883319+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:08:07.981638+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}
+[2025-11-09T05:09:07.985988+00:00] poll result: {'new_count': 0, 'notified': [], 'recipients': ['takashi010121@icloud.com']}

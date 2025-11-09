@@ -1,0 +1,16 @@
+[2025-11-09T04:54:30.293281Z] monitor started
+[2025-11-09T04:54:30.293565Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T04:55:30.293866Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T04:56:30.294188Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T04:57:30.294487Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T04:58:30.294771Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T04:59:30.295183Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T05:00:30.295591Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T05:01:30.295941Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T05:02:30.296223Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T05:03:30.297043Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T05:04:30.297367Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=0
+[2025-11-09T05:05:30.297744Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=2
+[2025-11-09T05:06:30.298059Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=2
+[2025-11-09T05:07:30.298444Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=2
+[2025-11-09T05:08:30.298719Z] summary(last10m): dry_run=0 smtp_fail=0 smtp_ok=2

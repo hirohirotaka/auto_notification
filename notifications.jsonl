@@ -1,0 +1,18 @@
+{"ts": "2025-11-09T12:34:56Z", "method": "unit-test", "recipients": ["u@e.com"], "subject": "hi", "status": "success", "detail": "ok"}
+{"ts": "2025-11-09T03:29:37.549313", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T03:40:18.024647", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T03:59:13.618278", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:00:13.652968", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:04:13.883363", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:07:48.673011", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:15:05.019849", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:17:04.944214", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:20:05.122595", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (2件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:21:05.185973", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:24:15.189927", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:26:38.565906", "method": "dry-run", "recipients": ["あなたの受信先メールアドレス@example.com"], "subject": "【テスト】予約通知テスト", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:30:51.774996", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "【テスト】予約通知テスト", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:44:28.168329", "method": "dry-run", "recipients": ["takashi010121@icloud.com"], "subject": "テスト件名", "status": "dry-run", "detail": ""}
+{"ts": "2025-11-09T04:51:11.489810", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "【テスト】予約通知テスト", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T05:05:09.973315", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}
+{"ts": "2025-11-09T05:05:28.584033", "method": "smtp", "recipients": ["takashi010121@icloud.com"], "subject": "予約枠の空き候補が見つかりました (1件)", "status": "success", "detail": "smtp.gmail.com:587"}

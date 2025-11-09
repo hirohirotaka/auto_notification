@@ -1,0 +1,20 @@
+/var/lib/auto_notification/notification.log /var/lib/auto_notification/notifications.jsonl {
+    daily
+    rotate 14
+    compress
+    missingok
+    copytruncate
+    notifempty
+}
+/home/ubuntu/auto_notification/cron.log /home/ubuntu/auto_notification/notification.log /home/ubuntu/auto_notification/notifications.jsonl {
+    daily
+    rotate 14
+    compress
+    missingok
+    notifempty
+    create 0640 ubuntu ubuntu
+    sharedscripts
+    postrotate
+        # no-op
+    endscript
+}
